@@ -308,26 +308,55 @@ section{
     margin: auto 0;
 }
 
-/*EXPERIENCE SECTION*/
+/* EXPERIENCE SECTION */
 
-#experience{
+#experience {
     position: relative;
 }
 
-.experience-sub-title{
+#experience .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
     margin-bottom: 2rem;
 }
 
-.experience-details-container{
+#experience .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.article-container{
+#experience .article-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: flex-start;
+}
+
+#experience .article-container article {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex: 1;
+    max-width: 100%;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+#experience .article-container article img.icon {
+    width: 2rem;
+    height: auto;
+}
+
+#experience .article-container article div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Skills Section */
+#experience .article-container-skills {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -336,22 +365,29 @@ section{
     justify-content: space-around;
 }
 
-article{
+#experience .article-container-skills article {
     display: flex;
     width: 10rem;
     justify-content: left;
     gap: 0.5rem;
 }
 
-article .icon {
+#experience article .icon {
     cursor: default;
 }
+
 
 /*PROJECT SECTION*/
 #projects{
     position: relative;
+    
 }
 
+.project-details-container{
+    display: flex;
+    justify-content: center;
+
+}
 .color-container{
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
@@ -373,13 +409,14 @@ article .icon {
     border-color: rgb(163, 163, 163);
 }
 
+
 /*CONTACT*/
 
 #contact{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 74vh;
 }
 
 .contact-info-upper-container{
