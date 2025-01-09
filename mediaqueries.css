@@ -91,4 +91,11 @@
     .text-container{
         text-align: justify;
     }
+
+    .project-list {
+        display: flex;
+        flex-direction: column; 
+        overflow-x: visible;
+    }
+
 }
