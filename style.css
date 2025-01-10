@@ -55,7 +55,10 @@ a:hover{
 }
 
 .logo{
+    font-family: "Poppins Semibold", serif;
     font-size: 2rem;
+    font-style: italic;
+    
 }
 
 .logo:hover{
@@ -457,6 +460,7 @@ section{
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
+    padding: 0.5rem;
 }
 
 .contact-info-container p {
@@ -467,9 +471,6 @@ section{
     cursor: default;
 }
 
-.email-icon{
-    height: 2.5rem;
-}
 
 /*FOOTER SECTION*/
 
